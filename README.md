@@ -83,9 +83,14 @@ Contributions, issues, and feature requests are welcome!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## 🚀 Future Scope
+
+**ReadMeForge** will continue to evolve with features such as AI-assisted README generation, GitHub repository import, advanced templates, cloud synchronization, collaborative editing, PDF/HTML export, and seamless integrations with popular developer tools.
+Also going to add import as .md and .json files.
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
+
 *Forged with ❤️ by a passionate developer.*
