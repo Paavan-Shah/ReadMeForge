@@ -1,0 +1,245 @@
+[
+  {
+    "id": "title",
+    "label": "Title",
+    "icon": "Type",
+    "description": "Project name and tagline",
+    "category": "header",
+    "singleton": true,
+    "defaultData": {
+      "projectName": "My Awesome Project",
+      "tagline": "A short, catchy description of what this project does.",
+      "alignment": "center"
+    }
+  },
+  {
+    "id": "logo-banner",
+    "label": "Logo / Banner",
+    "icon": "Image",
+    "description": "Project logo or hero banner image",
+    "category": "header",
+    "singleton": true,
+    "defaultData": {
+      "imageUrl": "",
+      "altText": "Project Logo",
+      "width": "200",
+      "linkUrl": "",
+      "alignment": "center",
+      "isBanner": false
+    }
+  },
+  {
+    "id": "badges",
+    "label": "Badges",
+    "icon": "Shield",
+    "description": "Status badges (build, license, version…)",
+    "category": "header",
+    "singleton": true,
+    "defaultData": {
+      "badges": [],
+      "alignment": "center"
+    }
+  },
+  {
+    "id": "description",
+    "label": "Description",
+    "icon": "FileText",
+    "description": "Overview, motivation, and key points",
+    "category": "header",
+    "singleton": true,
+    "defaultData": {
+      "overview": "",
+      "keyPoints": [],
+      "problemStatement": "",
+      "solutionStatement": ""
+    }
+  },
+  {
+    "id": "features",
+    "label": "Features",
+    "icon": "Sparkles",
+    "description": "Highlight what makes your project great",
+    "category": "header",
+    "singleton": true,
+    "defaultData": {
+      "features": [],
+      "layout": "table",
+      "heading": "✨ Features"
+    }
+  },
+  {
+    "id": "installation",
+    "label": "Installation",
+    "icon": "Download",
+    "description": "Step-by-step install instructions",
+    "category": "body",
+    "singleton": true,
+    "defaultData": {
+      "prerequisites": [],
+      "steps": []
+    }
+  },
+  {
+    "id": "usage",
+    "label": "Usage",
+    "icon": "Play",
+    "description": "How to use the project with examples",
+    "category": "body",
+    "singleton": true,
+    "defaultData": {
+      "examples": [],
+      "demoUrl": ""
+    }
+  },
+  {
+    "id": "tech-stack",
+    "label": "Tech Stack",
+    "icon": "Layers",
+    "description": "Technologies and frameworks used",
+    "category": "technical",
+    "singleton": true,
+    "defaultData": {
+      "technologies": []
+    }
+  },
+  {
+    "id": "screenshots",
+    "label": "Screenshots",
+    "icon": "Monitor",
+    "description": "Screenshots and demo GIFs",
+    "category": "body",
+    "singleton": true,
+    "defaultData": {
+      "screenshots": [],
+      "layout": "grid"
+    }
+  },
+  {
+    "id": "api-reference",
+    "label": "API Reference",
+    "icon": "Code2",
+    "description": "API endpoints and parameters",
+    "category": "technical",
+    "singleton": true,
+    "defaultData": {
+      "baseUrl": "https://api.example.com",
+      "authNote": "",
+      "endpoints": []
+    }
+  },
+  {
+    "id": "env-vars",
+    "label": "Environment Variables",
+    "icon": "Settings",
+    "description": "Required and optional env variables",
+    "category": "technical",
+    "singleton": true,
+    "defaultData": {
+      "envFile": ".env.example",
+      "variables": []
+    }
+  },
+  {
+    "id": "folder-structure",
+    "label": "Folder Structure",
+    "icon": "FolderTree",
+    "description": "Project directory layout",
+    "category": "technical",
+    "singleton": true,
+    "defaultData": {
+      "structure": "├── src/\n│   ├── components/\n│   ├── utils/\n│   └── index.ts\n├── public/\n├── package.json\n└── README.md",
+      "description": ""
+    }
+  },
+  {
+    "id": "contributing",
+    "label": "Contributing",
+    "icon": "GitBranch",
+    "description": "How others can contribute",
+    "category": "community",
+    "singleton": true,
+    "defaultData": {
+      "welcomeText": "Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.",
+      "steps": [
+        "Fork the Project",
+        "Create your Feature Branch (`git checkout -b feature/AmazingFeature`)",
+        "Commit your Changes (`git commit -m 'Add some AmazingFeature'`)",
+        "Push to the Branch (`git push origin feature/AmazingFeature`)",
+        "Open a Pull Request"
+      ],
+      "codeOfConductUrl": "",
+      "issueUrl": ""
+    }
+  },
+  {
+    "id": "roadmap",
+    "label": "Roadmap",
+    "icon": "Map",
+    "description": "Planned features and milestones",
+    "category": "community",
+    "singleton": true,
+    "defaultData": {
+      "items": []
+    }
+  },
+  {
+    "id": "faq",
+    "label": "FAQ",
+    "icon": "HelpCircle",
+    "description": "Frequently asked questions",
+    "category": "community",
+    "singleton": true,
+    "defaultData": {
+      "items": []
+    }
+  },
+  {
+    "id": "changelog",
+    "label": "Changelog",
+    "icon": "History",
+    "description": "Version history and release notes",
+    "category": "community",
+    "singleton": true,
+    "defaultData": {
+      "entries": []
+    }
+  },
+  {
+    "id": "license",
+    "label": "License",
+    "icon": "Scale",
+    "description": "License information",
+    "category": "footer",
+    "singleton": true,
+    "defaultData": {
+      "spdx": "MIT",
+      "year": "2024",
+      "author": "",
+      "customText": ""
+    }
+  },
+  {
+    "id": "contact",
+    "label": "Contact",
+    "icon": "Mail",
+    "description": "How to reach the maintainers",
+    "category": "footer",
+    "singleton": true,
+    "defaultData": {
+      "intro": "Have questions or want to connect?",
+      "items": []
+    }
+  },
+  {
+    "id": "acknowledgements",
+    "label": "Acknowledgements",
+    "icon": "Heart",
+    "description": "Credits, inspirations, and thanks",
+    "category": "footer",
+    "singleton": true,
+    "defaultData": {
+      "intro": "",
+      "items": []
+    }
+  }
+]

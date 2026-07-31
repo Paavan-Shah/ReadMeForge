@@ -1,0 +1,66 @@
+[
+  {
+    "id": "template-generic",
+    "name": "Generic / Open Source",
+    "description": "A well-rounded template for any open-source project",
+    "icon": "🌐",
+    "tags": ["general", "open-source"],
+    "sectionIds": ["title", "logo-banner", "badges", "description", "features", "installation", "usage", "contributing", "license", "contact", "acknowledgements"]
+  },
+  {
+    "id": "template-react",
+    "name": "React App",
+    "description": "Modern React/Next.js frontend project",
+    "icon": "⚛️",
+    "tags": ["frontend", "react", "javascript"],
+    "sectionIds": ["title", "logo-banner", "badges", "description", "features", "tech-stack", "installation", "usage", "screenshots", "env-vars", "folder-structure", "contributing", "license"]
+  },
+  {
+    "id": "template-python",
+    "name": "Python Library",
+    "description": "Python package or script",
+    "icon": "🐍",
+    "tags": ["python", "library", "cli"],
+    "sectionIds": ["title", "badges", "description", "features", "installation", "usage", "api-reference", "contributing", "changelog", "license"]
+  },
+  {
+    "id": "template-cpp",
+    "name": "C++ Project",
+    "description": "C/C++ library or application",
+    "icon": "⚙️",
+    "tags": ["cpp", "c", "systems"],
+    "sectionIds": ["title", "badges", "description", "features", "installation", "usage", "folder-structure", "contributing", "license"]
+  },
+  {
+    "id": "template-api",
+    "name": "REST API",
+    "description": "Backend API with endpoints documentation",
+    "icon": "🔌",
+    "tags": ["api", "backend", "rest"],
+    "sectionIds": ["title", "badges", "description", "features", "tech-stack", "installation", "env-vars", "api-reference", "folder-structure", "contributing", "license"]
+  },
+  {
+    "id": "template-ml",
+    "name": "ML / AI Project",
+    "description": "Machine learning or data science project",
+    "icon": "🤖",
+    "tags": ["ml", "ai", "data-science", "python"],
+    "sectionIds": ["title", "badges", "description", "features", "tech-stack", "installation", "usage", "folder-structure", "contributing", "license", "acknowledgements"]
+  },
+  {
+    "id": "template-cli",
+    "name": "CLI Tool",
+    "description": "Command-line interface application",
+    "icon": "💻",
+    "tags": ["cli", "terminal", "tool"],
+    "sectionIds": ["title", "badges", "description", "features", "installation", "usage", "env-vars", "contributing", "changelog", "license"]
+  },
+  {
+    "id": "template-portfolio",
+    "name": "Portfolio / Website",
+    "description": "Personal website or portfolio project",
+    "icon": "🎨",
+    "tags": ["portfolio", "website", "personal"],
+    "sectionIds": ["title", "logo-banner", "badges", "description", "features", "screenshots", "tech-stack", "contact", "license"]
+  }
+]
